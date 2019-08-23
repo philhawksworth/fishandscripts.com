@@ -6,6 +6,14 @@ module.exports = function(config) {
   config.addLayoutAlias('default', 'layouts/base.njk');
   config.addLayoutAlias('episode', 'layouts/episode.njk');
 
+
+  // collect the published episodes
+  config.addCollection("episodes", function(collection) {
+    return collection.getFilteredByGlob("./src/site/episode/*.md").filter(function(item) {
+      return item.data.published == true;
+    });
+  });
+
   // Add some utility filters
   config.addFilter("dateDisplay", require("./src/utils/filters/date.js") );
 

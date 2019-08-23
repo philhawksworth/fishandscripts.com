@@ -8,7 +8,7 @@ layout: default
 </div>
 
 <ul class="listing" id="episodes">
-{%- for item in collections.episode | reverse -%}
+{%- for item in collections.episodes | reverse -%}
   <li {% if loop.first %}class="shout"{% endif %} >
     <p class="episode-data">
       <time datetime="{{ item.date }}">{{ item.date | dateDisplay("LLLL d, y") }}</time>
