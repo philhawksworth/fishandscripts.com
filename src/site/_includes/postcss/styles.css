@@ -180,3 +180,8 @@ iframe {
   margin-top: 2em;
   margin-bottom: 2em;
 }
+
+main h2 {
+  margin-top: 1.5em;
+  margin-bottom: 0.6em;
+}
