@@ -1,7 +1,7 @@
 ---
 episode: Season 1, Episode 3
 title: More things here
-subtitle: He talk about other things in this one
+subtitle: We talk about other things in this one
 date: 2019-09-05
 audioURL: https://anchor.fm/jack-franklin04/embed/episodes/Jack-testing-episode-one-e4rlip
 ---
