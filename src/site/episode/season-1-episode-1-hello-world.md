@@ -3,7 +3,7 @@ episode: Season 1, Episode 1
 title: Hello world!
 subtitle: Blowing into microphones and twiddling knobs
 date: 2019-08-23
-audioURL: https://anchor.fm/jack-franklin04/embed/episodes/Jack-testing-episode-one-e4rlip
+audioURL: https://anchor.fm/fishandscripts/episodes/Episode-1-Welcome-to-Fish-and-Scripts-e4o76m
 published: true
 ---
 
