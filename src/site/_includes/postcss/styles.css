@@ -15,10 +15,6 @@
   color: $page-color;
 }
 
-html {
-  background-color: $accent-color;
-}
-
 body {
   text-align: center;
   background-color: $page-color;
@@ -28,8 +24,6 @@ body {
   font-size: 16px;
   line-height: 1.8;
   min-height: 100vh;
-  background:  $page-color;
-  background: url(/images/bg-grid.png), linear-gradient(320deg, $page-color 0%, $accent-color 100%);
 
   @media (min-width: $narrow) {
     font-size: 18px;
@@ -50,24 +44,28 @@ body {
 }
 
 
+header {
+  margin-top:3em;
+  margin-bottom:5em;
+}
+
 h1, h2, h3 {
   color: $text-color;
   font-weight: 600;
-  margin-top: 2em;
   margin-bottom:0.2em;
   line-height: 1;
 }
 h1 {
-  font-size: 3em;
+  font-size: 2em;
   margin-top:0.4em;
-  margin-bottom:0.2em;
+  margin-bottom:0;
   line-height: 1;
 
   @media (min-width: $mid) {
-    font-size: 4em;
+    font-size: 2.5em;
   };
   @media (min-width: $wide) {
-    font-size: 5em;
+    font-size: 3em;
   };
 }
 
@@ -77,9 +75,23 @@ p {
 }
 
 .subtitle {
-  font-size: 1.2em;
-  margin-top: 1em;
-  margin-bottom: 5em;
+  font-size: 1em;
+  color: mix($text-color, $page-color, 60%);
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+time {
+  font-size: 1em;
+}
+
+.episode-data {
+  margin: 0;
+  color: mix($text-color, $page-color, 60%);
+  time {
+    display:block;
+    font-size: 0.7em;
+  }
 }
 
 ul, ol {
@@ -100,92 +112,19 @@ a:focus {
   border-bottom-color: $text-color;
 }
 
-.nakedLink a:link,
-.nakedLink a:visited,
-.nakedLink a:hover,
-.nakedLink a:focus {
+h1 a:link,
+h1 a:visited,
+h1 a:hover,
+h1 a:focus {
   border-bottom-style:none;
 }
 
-.nav {
-  padding-top: 3em;
-
-  li {
-    display: inline;
-  }
-
-  a:link,
-  a:visited {
-    display: inline-block;
-    border-top-style: solid;
-    border-top-width: 1px;
-    border-top-color: mix($text-color, $accent-color, 40%);
-    border-bottom-style: none;
-    padding-top: 0.8em;
-    padding-bottom: 2em;
-    margin-left: 0;
-    margin-right: 0.7em;
-    width: 9em;
-    text-align: left;
-    color: mix($text-color, $accent-color, 80%);
-    text-decoration: none;
-  }
-  a:hover,
-  a:focus {
-      color: $text-color;
-      border-top-color: $text-color;
-      border-bottom-style: none;
-  }
-
-  small {
-    display: block;
-    font-size: 0.7em;
-    color: mix($text-color,$accent-color, 60%);
-  }
-}
-
-
-code {
-  font-size: 0.8em;
-  background-color: mix($text-color,$accent-color, 80%);
-  color: rgb(42, 65, 77);
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 6px;
-  padding-right: 6px;
-  border-radius: 4px;
-  white-space: nowrap;
-}
-
-.date {
-  font-size: 0.8em;
-  font-style: italic;
-}
-
-main {
-  margin-top: 4em;
-}
-
-pre {
-  overflow: auto;
-  border-radius: 6px;
-  code {
-    border-style: none;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
 
 
 footer {
   margin-top: 6em;
   padding-top: 4em;
   padding-bottom: 6em;
-  border-top-width: 1px;
-  border-top-style: solid;
-  border-top-color: mix($text-color, $accent-color, 10%);
   font-size: 0.7em;
   color: mix($text-color, $accent-color, 50%);
 
@@ -204,16 +143,40 @@ footer {
 .listing {
   list-style: none;
   margin: 0;
+  margin-top: 3em;
   padding: 0;
+
+  h3 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  li {
+    padding-bottom: 3em;
+  }
+  li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  li.shout {
+    padding: 2em;
+    margin-left: -1em;
+    margin-right: -1em;
+    margin-bottom: 3em;
+    border-radius: 3px;
+    background-color: $text-color;
+    color: mix($page-color, $text-color, 60%);
+
+    a:link,
+    a:visited {
+      color: mix($page-color, $text-color, 90%);
+    }
+  }
 }
 
-.listing li {
-  border-bottom: 1px solid $accent-color;
-  margin-bottom: 50px;
-  padding-bottom: 30px;
-}
 
-.listing li:last-child {
-  border-bottom: none;
-  padding-bottom: 0;
+iframe {
+  margin-top: 2em;
+  margin-bottom: 2em;
 }

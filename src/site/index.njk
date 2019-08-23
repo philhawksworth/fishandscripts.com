@@ -1,0 +1,23 @@
+---
+subtitle: The all things web development podcast by two Brits with opinions and puns.<br /> Made by <a href="https://twitter.com/philhawksworth">Phil</a> and <a href="https://twitter.com/jack_franklin">Jack</a> for your entertainment.
+layout: default
+---
+
+<div class="intro">
+  <p>Some intro text that I've not written yet...</p>
+</div>
+
+<ul class="listing" id="episodes">
+{%- for item in collections.episode | reverse -%}
+  <li {% if loop.first %}class="shout"{% endif %} >
+    <p class="episode-data">
+      <time datetime="{{ item.date }}">{{ item.date | dateDisplay("LLLL d, y") }}</time>
+      {{ item.data.episode }}
+    </p>
+    <h3><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
+    <div class="episode-subtitle">
+      {{ item.data.subtitle }}
+    </div>
+  </li>
+{%- endfor -%}
+</ul>
