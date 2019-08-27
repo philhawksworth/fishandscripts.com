@@ -3,7 +3,7 @@ episode: Season 1, Episode 1
 title: Hello world!
 subtitle: Blowing into microphones and twiddling knobs
 date: 2019-08-23
-audioURL: https://anchor.fm/fishandscripts/episodes/Episode-1-Welcome-to-Fish-and-Scripts-e4o76m
+audioURL: https://anchor.fm/fishandscripts/embed/episodes/Episode-1-Welcome-to-Fish-and-Scripts-e4o76m
 published: true
 ---
 
@@ -29,9 +29,3 @@ You can find us on the internet in a number of ways and we'd love to hear from y
 - [Rich Harris' talk on Svelte 3 from YGLF](https://www.youtube.com/watch?v=AdNJ3fydeao)
 - [React Styleguidist](https://github.com/styleguidist/react-styleguidist)
 - [List of JS frameworks for Jack's game](https://en.wikipedia.org/wiki/Comparison_of_JavaScript_frameworks)
-
-
-
-
-
-

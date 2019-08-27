@@ -12,7 +12,7 @@ templateEngineOverride: njk, md
 <div class="episode-subtitle">
   {{ subtitle }}
 </div>
-<iframe src="{{ audioURL }}" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+<iframe src="{{ audioURL }}" class="anchor-iframe" frameborder="0" scrolling="no"></iframe>
 <main>
   {{ content | safe }}
 </main>
