@@ -1,0 +1,38 @@
+---
+permalink: feed.xml
+metadata:
+  title: Fish and Scripts
+  url: http://fishandscripts.com
+  author:
+    name: Jack Franklin and Phil Hawksworth
+    email: ?
+  feed:
+    subtitle: The all things web development podcast by two Brits with opinions and puns.
+    filename: feed.xml
+    path: feed.xml
+    url: http://fishandscripts.com/feed.xml
+    id: http://fishandscripts.com
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ metadata.title }}</title>
+  <subtitle>{{ metadata.feed.subtitle }}</subtitle>
+  <link href="{{ metadata.feed.url }}" rel="self"/>
+  <link href="{{ metadata.url }}"/>
+  <updated>{{ collections.episodes | rssLastUpdatedDate }}</updated>
+  <id>{{ metadata.feed.id }}</id>
+  <author>
+    <name>{{ metadata.author.name }}</name>
+    <email>{{ metadata.author.email }}</email>
+  </author>
+  {%- for item in collections.episodes %}
+  {% set absolutePostUrl %}{{ item.url | url | absoluteUrl(metadata.url) }}{% endset %}
+  <entry>
+    <title>{{ item.data.title }}</title>
+    <link href="{{ absolutePostUrl }}"/>
+    <updated>{{ item.date | rssDate }}</updated>
+    <id>{{ absolutePostUrl }}</id>
+    <content type="html">{{ item.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+  </entry>
+  {%- endfor %}
+</feed>
