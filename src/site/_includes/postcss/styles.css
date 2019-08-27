@@ -46,7 +46,7 @@ body {
 
 header {
   margin-top:3em;
-  margin-bottom:5em;
+  margin-bottom:3em;
 }
 
 h1, h2, h3 {
@@ -78,7 +78,7 @@ p {
   font-size: 1em;
   color: mix($text-color, $page-color, 60%);
   margin-top: 0;
-  margin-bottom: 1em;
+  margin-bottom: 0.2em;
 }
 
 time {
@@ -190,4 +190,28 @@ main h2 {
   max-width: 100%;
   width: 500px;
   height: 102px;
+}
+
+
+.subscriptions {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.subscriptions li {
+  padding: 2px 5px;
+}
+
+.subscriptions li:first-of-type {
+  padding-left: 0;
+}
+.subscriptions li:last-of-type {
+  padding-right: 0;
+}
+
+.subscriptions .more {
+  font-style: italic;
 }

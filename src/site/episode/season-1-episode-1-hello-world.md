@@ -1,7 +1,7 @@
 ---
 episode: Season 1, Episode 1
 title: Hello world!
-subtitle: Blowing into microphones and twiddling knobs
+subtitle: We're live! Welcome to the first ever episode of Fish and Scripts. Come join us as we introduce ourselves, the podcast before chatting about GraphQL, lazy loading and so much more.
 date: 2019-08-23
 audioURL: https://anchor.fm/fishandscripts/embed/episodes/Episode-1-Welcome-to-Fish-and-Scripts-e4o76m
 published: true
