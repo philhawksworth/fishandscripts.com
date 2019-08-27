@@ -1,6 +1,6 @@
 
-module.exports = function(config) {
 
+module.exports = function(config) {
 
   // Layout aliases can make templates more portable
   config.addLayoutAlias('default', 'layouts/base.njk');
@@ -30,6 +30,10 @@ module.exports = function(config) {
       }
       return minified.code;
   });
+
+
+  // add support for RSS feed generation
+  config.addPlugin(require("@11ty/eleventy-plugin-rss"));
 
 
   // pass some assets right through
