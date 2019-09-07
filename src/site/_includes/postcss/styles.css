@@ -87,6 +87,7 @@ time {
 
 .episode-data {
   margin: 0;
+  font-size: 0.9em;
   color: mix($text-color, $page-color, 60%);
   time {
     display:block;
@@ -147,8 +148,10 @@ footer {
   padding: 0;
 
   h3 {
-    margin-top: 0.5em;
+    margin-top: 0.1em;
     margin-bottom: 0.5em;
+    font-size: 1.8em;
+    line-height: 1.2;
   }
 
   li {
@@ -166,7 +169,11 @@ footer {
     margin-bottom: 3em;
     border-radius: 3px;
     background-color: $text-color;
-    color: mix($page-color, $text-color, 60%);
+    color: mix($page-color, $text-color, 80%);
+
+    .episode-data {
+      color: mix($text-color, $page-color, 30%);
+    }
 
     a:link,
     a:visited {
