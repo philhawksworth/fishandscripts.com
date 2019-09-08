@@ -1,9 +1,9 @@
 ---
 episode: Season 1, Episode 2
 title: Misconceptions about programming
-subtitle: Today we're reflecting on the past and talking about what we've learned and how we've grown as develoers since starting our careers.
+subtitle: Today we're reflecting on the past and talking about what we've learned and how we've grown as developers since starting our careers.
 date: 2019-09-09
-audioURL: https://anchor.fm/jack-franklin04/embed/episodes/Jack-testing-episode-one-e4rlip
+audioURL: https://anchor.fm/fishandscripts/embed/episodes/Misconceptions-about-programming-e59fom
 published: true
 ---
 
