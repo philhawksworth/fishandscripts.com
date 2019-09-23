@@ -36,3 +36,8 @@ As always you'll find links to everything mentioned down below in the show notes
 - [List of programming languages](https://www.scriptol.com/programming/list-programming-languages.php)
 
 
+<div class="credits">
+"Local Forecast - Elevator" Kevin MacLeod (incompetech.com)
+<br />Licensed under Creative Commons: By Attribution 4.0 License
+http://creativecommons.org/licenses/by/4.0/
+</div>
