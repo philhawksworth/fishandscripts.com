@@ -3,7 +3,7 @@ episode: Season 1, Episode 3
 title: Backpacks, conferences and GitHub templates
 subtitle: Today we're talking travel; what do you need to make the most out of your 4 day conference trips? We're diving into underrated rucksacks, laptop stands, power packs and turning hotel rooms into a productivity zone. The highlights reel includes how we start new projects with GitHub templates, programming fonts and we explore the weird and whacky names people come up with for programming languages.
 date: 2019-09-23
-audioURL: https://anchor.fm/jack-franklin04/embed/episodes/Jack-testing-episode-one-e4rlip
+audioURL: https://anchor.fm/fishandscripts/embed/episodes/Backpacks--conferences-and-GitHub-templates-e5gqia
 published: true
 ---
 
