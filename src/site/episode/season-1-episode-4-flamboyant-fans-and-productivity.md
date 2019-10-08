@@ -20,6 +20,7 @@ As always you'll find links to everything mentioned down below in the show notes
 ## Show notes
 
 - [Videos from JAMStack Conf](https://www.youtube.com/channel/UC8bRyfU7ycLXnEBfvdorpUg)
+- [Future JAMstack Conferences](https://jamstackconf.com)
 - [VS Code Remote plugin](https://code.visualstudio.com/docs/remote/remote-overview)
 - [Phil Nash on Twitter](https://twitter.com/philnash)
 - [thread.com/shop](https://www.thread.com/shop/)
@@ -30,3 +31,4 @@ As always you'll find links to everything mentioned down below in the show notes
 - [Eat that Frog!](https://www.amazon.co.uk/Eat-That-Frog-Important-Things/dp/1444765426)
 - [Phil's Gist on Conference MC tips](https://gist.github.com/philhawksworth/a8258941d3b8f5197ea0ecb73986b9d2)
 - [Using GraphQL without a client](https://javascriptplayground.com/using-graphql-without-a-client/)
+- [Phil's snazzy fan](https://www.amazon.co.uk/gp/product/B07CHNGPFX/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
