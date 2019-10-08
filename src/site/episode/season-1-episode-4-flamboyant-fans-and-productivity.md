@@ -3,9 +3,10 @@ episode: Season 1, Episode 4
 title: Flamboyant fans and getting things done
 subtitle: "We're back with episode 4 where we spend far too long talking about the English heatwave before moving onto something productive: productivity! We chat about our approaches and methods for getting things done and share some of the tools we use to help us plan and produce."
 date: 2019-10-08
-audioURL: TBD
+audioURL: https://anchor.fm/fishandscripts/embed/episodes/Flamboyant-fans-and-getting-things-done-e6e3mp
 published: true
 ---
+
 
 We're a day late but just as great! Today we reflect on the English summer and the London heatwave that had all us Brits sweating profusely. Phil shares his tips on criteria for buying cooling devices, Jack talks about a great experience using the VSCode Remote plugin before we move onto our productivity tips: our tools and techniques for feeling productive and keeping track of all the things we have on our plates.
 
