@@ -27,4 +27,3 @@ As always you'll find links to everything mentioned down below in the show notes
 - [Tachyons](http://tachyons.io/)
 - [Utility first CSS talk](https://dotall.com/sessions/a-real-life-journey-into-the-opinionated-world-of-utility-first-css)
 - [freeCodeCamp](https://www.freecodecamp.org)
-- [Todoist](https://www.todoist.com)
