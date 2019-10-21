@@ -3,7 +3,7 @@ episode: Season 1, Episode 5
 title: Utility CSS, teaching beginners and flashy PCs
 subtitle: "Welcome back to episode 5 where we're chatting about the best things to teach beginners, utility CSS and working on Windows 10."
 date: 2019-10-21
-audioURL: https://anchor.fm/fishandscripts/embed/episodes/Flamboyant-fans-and-getting-things-done-e6e3mp
+audioURL: https://anchor.fm/fishandscripts/embed/episodes/Utility-CSS--teaching-beginners-and-flashy-PCs-e7t040
 published: true
 ---
 
