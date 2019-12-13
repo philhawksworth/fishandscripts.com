@@ -7,7 +7,7 @@ audioURL: https://anchor.fm/fishandscripts/embed/episodes/CSS-Grid--React-Suspen
 published: false
 ---
 
-Today's episode features a grumpy Phil who bemoans the page weight of Apple's AirPod Pro marketing site and we chat about how the web is impacted by leading companies creating pages like this. We chat about URLs and how much users care about them before moving onto Jack's first time properly diving into CSS Grid - where we get stuck understanding margins and padding - and talk about React Suspense and how the surface area of what React is offering is getting larger and more complex...
+Today we're diving into a variety of topics including _other podcasts_ that we like (although we're sure Fish and Scripts fills your entire podcasting needs) before Jack shares a frustrating story of TypeScript which lead to him _actually removing it_ from a project. Phil shares his delight in the Vue community and enjoyment of recent Vue conferences and we talk about onboarding developers into a new team: what do you team them and how do you make that process as smooth as possible?
 
 As always you'll find links to everything mentioned down below in the show notes and you can get us on Twitter:
 
