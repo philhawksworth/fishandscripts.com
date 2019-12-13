@@ -3,8 +3,8 @@ episode: Season 1, Episode 8
 title: Untangling Typescript
 subtitle: "Jack faces up to some of the unexpected complexity in using Typescript in a large, complex production site, while Phil spends more time thinking up stupid names for his cats."
 date: 2019-12-16
-audioURL: https://anchor.fm/fishandscripts/embed/episodes/CSS-Grid--React-Suspense-and-AirPod-page-weight-frustrations-e99rqd
-published: false
+audioURL: https://anchor.fm/fishandscripts/embed/episodes/Untangling-TypeScript-and-onboarding-new-developers-e9i2jv
+published: true
 ---
 
 Today we're diving into a variety of topics including _other podcasts_ that we like (although we're sure Fish and Scripts fills your entire podcasting needs) before Jack shares a frustrating story of TypeScript which lead to him _actually removing it_ from a project. Phil shares his delight in the Vue community and enjoyment of recent Vue conferences and we talk about onboarding developers into a new team: what do you team them and how do you make that process as smooth as possible?
