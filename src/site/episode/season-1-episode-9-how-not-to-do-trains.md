@@ -3,8 +3,8 @@ episode: Season 1, Episode 9
 title: Fish and Christmas special! Grumpy tweets and exciting 2020 plans.
 subtitle: "Today we're bringing you a festive feast of Fish and Scripts action - Phil nearly loses his laptop on a train, Jack gets fed up of Twitter memes and we talk about the tools and tech that are exciting us in 2020."
 date: 2019-12-23
-audioURL: https://anchor.fm/fishandscripts/embed/episodes/CSS-Grid--React-Suspense-and-AirPod-page-weight-frustrations-e99rqd
-published: false
+audioURL: https://anchor.fm/fishandscripts/embed/episodes/Fish-and-Christmas-special-e9og2p
+published: true
 ---
 
 After a spell of Phil being the grump, this festive episode features a grumpy Jack who has had his feathers ruffled by Twitter tropes. Meanwhile Phil shares some of his opinions and observations after starting to use Tailwind for utility-first CSS, we talk about what excites us in 2020.
