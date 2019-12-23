@@ -2,7 +2,7 @@ import App from './App.svelte';
 
 import * as autoEpisodes from 'glob:./episodes/*.md';
 
-const episodes = Object.values(autoEpisodes);
+const episodes = Object.values(autoEpisodes).map(e => e.default);
 
 const episodesDescOrder = episodes.sort((a, b) => {
   const aDateParts = a.metadata.date.split('-').map(x => parseInt(x));

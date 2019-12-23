@@ -21,6 +21,7 @@
     "sirv-cli": "^0.4.4"
   },
   "dependencies": {
+    "@jackfranklin/rollup-plugin-import-glob": "^0.1.0",
     "glob": "^7.1.6",
     "tmp": "^0.1.0"
   }

@@ -4,7 +4,7 @@ import commonjs from '@rollup/plugin-commonjs';
 import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
 import markdown from '@jackfranklin/rollup-plugin-markdown';
-import globImport from './rollup/rollup-plugin-glob-import';
+import importGlob from '@jackfranklin/rollup-plugin-import-glob';
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -26,7 +26,7 @@ export default {
         css.write('public/build/bundle.css');
       },
     }),
-    globImport({ pattern: 'episodes/*.md' }),
+    importGlob(),
     markdown(),
 
     // If you have external dependencies installed from
