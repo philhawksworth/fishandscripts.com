@@ -1,8 +1,8 @@
 [build]
   command = "npm run build"
-  publish = "dist"
+  publish = "public"
   NODE_ENV = "10.15.3"
 
 [dev]
-  command = "npm run start"
+  command = "npm run dev"
 
