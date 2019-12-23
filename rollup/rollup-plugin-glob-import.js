@@ -4,21 +4,18 @@ const path = require('path');
 const fs = require('fs');
 
 const globImport = (options = {}) => {
-  const pattern = options.pattern;
-
   const generatedCodes = new Map();
 
   return {
     name: 'plugin-glob-import',
     resolveId(importee, importer) {
-      if (!importee.includes('*')) return;
-      if (!importee.includes(options.pattern)) return;
+      if (!importee.startsWith('glob:')) return;
 
-      console.log('resolveId', importee, importer);
-
+      // remove the glob: from the start of the import
+      const pattern = importee.slice(5);
       const searchRoot = path.dirname(importer || process.cwd());
 
-      const files = glob.sync(importee, {
+      const files = glob.sync(pattern, {
         cwd: searchRoot,
       });
 

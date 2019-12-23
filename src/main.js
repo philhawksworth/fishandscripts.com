@@ -1,6 +1,6 @@
 import App from './App.svelte';
 
-import * as autoEpisodes from './episodes/*.md';
+import * as autoEpisodes from 'glob:./episodes/*.md';
 
 const episodes = Object.values(autoEpisodes);
 
