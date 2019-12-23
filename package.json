@@ -20,5 +20,8 @@
     "rollup-pluginutils": "^2.8.2",
     "sirv-cli": "^0.4.4"
   },
-  "dependencies": {}
+  "dependencies": {
+    "glob": "^7.1.6",
+    "tmp": "^0.1.0"
+  }
 }
