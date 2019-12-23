@@ -4,8 +4,11 @@
   import Episode from './Episode.svelte';
   import About from './About.svelte';
   import Header from './Header.svelte';
+  import sortEpisodes from './sort-episodes.js';
 
   export let episodes;
+
+  const sortedEpisodes = sortEpisodes(episodes);
 
   let prevUrl = null;
   globalHistory.listen(event => {
@@ -37,14 +40,14 @@
 <Router {url}>
   <Header />
   <main>
-    {#each episodes as episode}
+    {#each sortedEpisodes as episode}
       <Route path={episode.url}>
         <Episode {episode} summaryOnly={false} />
       </Route>
     {/each}
 
     <Route path="/">
-      {#each episodes as episode, i}
+      {#each sortedEpisodes as episode, i}
         <Episode {episode} summaryOnly={i > 0} latestSubTitle={i === 0} />
 
         {#if i === 0}
