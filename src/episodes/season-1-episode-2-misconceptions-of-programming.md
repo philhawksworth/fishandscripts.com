@@ -29,3 +29,6 @@ As always you'll find links to everything mentioned down below and please share 
 - [Lara Hogan: Resilient Management](https://resilient-management.com/)
 - [Julie Zhuo: The Making of a Manager](https://www.amazon.co.uk/Making-Manager-What-Everyone-Looks/dp/0753552892/ref=sr_1_fkmr0_1?keywords=becoming+a+manager+julie+zhuo&qid=1560241514&s=gateway&sr=8-1-fkmr0)
 - [Windows blog: Announcing WSL 2](https://devblogs.microsoft.com/commandline/announcing-wsl-2/)
+
+
+

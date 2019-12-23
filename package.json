@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@rollup/plugin-commonjs": "^11.0.0",
+    "gray-matter": "^4.0.2",
     "rollup-plugin-glob-import": "^0.4.5",
     "rollup-pluginutils": "^2.8.2",
     "showdown": "^1.9.1",

@@ -1,5 +1,6 @@
 import { createFilter } from 'rollup-pluginutils';
 import path from 'path';
+import matter from 'gray-matter';
 
 import showdown from 'showdown';
 
@@ -17,13 +18,13 @@ export default function markdownPlugin(options = {}) {
     transform(code, id) {
       if (!filter(id) || id.indexOf('.md') === -1) return;
 
-      const html = converter.makeHtml(code);
+      const matterResult = matter(code);
 
-      const metadata = converter.getMetadata();
+      const html = converter.makeHtml(matterResult.content);
 
       const exportFromModule = JSON.stringify({
         html,
-        metadata,
+        metadata: matterResult.data,
         filename: path.basename(id),
       });
 

@@ -7,6 +7,11 @@
 </script>
 
 <style>
+  section {
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+  }
   .post-contents {
     font-size: 1em;
   }
@@ -59,7 +64,7 @@
   </h1>
 
   {#if summaryOnly}
-    <p class="summary">{metadata.subtitle}</p>
+    <p class="summary">{metadata.subtitle && metadata.subtitle.replace(/&quot;/g, '')}</p>
   {:else}
     <iframe
       src={metadata.audioURL}

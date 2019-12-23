@@ -9,19 +9,21 @@
     --fish-blue: #1b3e7c;
   }
 
-  header,
-  main {
+  header {
     max-width: 900px;
     width: 90%;
     margin: 0 auto;
-  }
 
-  header {
     padding: 20px 0;
     display: grid;
 
     grid-template-columns: 100px 1fr;
     border-bottom: 1px solid var(--fish-blue);
+  }
+
+  main {
+    margin: 0 auto 40px auto;
+    padding-bottom: 60px;
   }
 
   img {

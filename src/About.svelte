@@ -4,7 +4,7 @@
 
 <style>
   section {
-    margin: 20px 0;
+    margin: 60px 0;
     background: var(--fish-blue);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -20,7 +20,12 @@
     max-width: 100%;
   }
 
+  .text {
+    padding: 5px 10px;
+  }
+
   .text p {
+    font-size: 1.25em;
     color: #fff;
   }
 </style>
