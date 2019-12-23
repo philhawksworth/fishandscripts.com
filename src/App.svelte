@@ -12,7 +12,7 @@
 
   let prevUrl = null;
   globalHistory.listen(event => {
-    const newUrl = event.location.href;
+    const newUrl = event.location.pathname;
 
     if (prevUrl !== null && prevUrl !== newUrl) {
       prevUrl = newUrl;
@@ -22,8 +22,17 @@
     }
   });
 
-  // used by svelte-routing for SSR
-  export let url = '';
+  let activeEpisode = null;
+
+  $: {
+    activeEpisode = sortedEpisodes.find(e => {
+      const urlForComparing = (prevUrl || window.location.pathname).replace(
+        '/',
+        ''
+      );
+      return e.url === urlForComparing;
+    });
+  }
 </script>
 
 <style>
@@ -37,7 +46,14 @@
   }
 </style>
 
-<Router {url}>
+<svelte:head>
+  {#if activeEpisode}
+    <title>{activeEpisode.metadata.title}</title>
+  {:else}
+    <title>Fish and Scripts</title>
+  {/if}
+</svelte:head>
+<Router>
   <Header />
   <main>
     {#each sortedEpisodes as episode}
