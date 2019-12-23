@@ -4,7 +4,7 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public"
+    "start": "sirv public --single"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^6.0.0",
@@ -23,6 +23,7 @@
   "dependencies": {
     "@jackfranklin/rollup-plugin-import-glob": "^0.1.0",
     "glob": "^7.1.6",
+    "svelte-routing": "^1.4.0",
     "tmp": "^0.1.0"
   }
 }

@@ -1,9 +1,11 @@
 <script>
+  import { Link, Route } from 'svelte-routing';
   export let episode;
   export let summaryOnly;
+  export let latestSubTitle = false;
 
   const { html, metadata, filename } = episode;
-  const url = filename.replace(".md", "");
+  const url = episode.url;
 </script>
 
 <style>
@@ -57,14 +59,16 @@
 <section>
 
   <h1>
-    {#if summaryOnly === false}
+    {#if latestSubTitle}
       <span>Latest episode</span>
     {/if}
-    <a href={url}>{metadata.title}</a>
+    <Link to={url}>{metadata.title}</Link>
   </h1>
 
   {#if summaryOnly}
-    <p class="summary">{metadata.subtitle && metadata.subtitle.replace(/&quot;/g, '')}</p>
+    <p class="summary">
+      {metadata.subtitle && metadata.subtitle.replace(/&quot;/g, '')}
+    </p>
   {:else}
     <iframe
       src={metadata.audioURL}
