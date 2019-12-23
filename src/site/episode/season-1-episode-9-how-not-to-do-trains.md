@@ -18,17 +18,14 @@ As always you'll find links to everything mentioned down below in the show notes
 
 ## Show notes Stocking
 
-- Brendan Dawes
-- Tailwind CSS again!
-- ElevenTail
-- VS code extension for Tailwind
-- Tailwind UI
-- Steve Schoeder
-- Refactoring UI
-- Utility First CSS from dotCSS in Paris - Sara Dayan
-- responsive design workflows, by Stephen Hay
-- Tim Holman
-- Elevator JS
-- Tutorial Markdown
-- Lynn Fisher site and behind the scenes
-- Markdown cheatsheet
+- [Brendan Dawes](http://www.brendandawes.com/)
+- [Tailwind CSS](https://tailwindcss.com/) (again!)
+- [VS Code extension for Tailwind](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+- [Tailwind UI](https://www.tailwindui.com/)
+- [Steve Schoger](https://twitter.com/steveschoger)
+- [Refactoring UI](https://refactoringui.com/book/)
+- [Sarah Dayan - In Defense of Utility-First CSS](https://www.youtube.com/watch?v=R50q4NES6Iw) - A talk from dotCSS, Paris.
+- [Responsive Design Workflow](https://responsivedesignworkflow.com/), by Stephen Hay
+- [Tim Holman](http://tholman.com/)
+- [Tutorial Markdown](https://github.com/tholman/tutorial-markdown)
+- Lynn Fisher's [lynnandtonic.com](https://lynnandtonic.com/) and [behind the scenes](https://lynnandtonic.com/thoughts/entries/case-study-2019-refresh/)
