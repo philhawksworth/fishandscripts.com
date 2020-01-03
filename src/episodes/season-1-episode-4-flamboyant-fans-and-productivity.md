@@ -1,7 +1,7 @@
 ---
 episode: Season 1, Episode 4
 title: Flamboyant fans and getting things done
-subtitle: "We're back with episode 4 where we spend far too long talking about the English heatwave before moving onto something productive: productivity! We chat about our approaches and methods for getting things done and share some of the tools we use to help us plan and produce."
+subtitle: "We are back with episode 4 where we spend far too long talking about the English heatwave before moving onto something productive: productivity! We chat about our approaches and methods for getting things done and share some of the tools we use to help us plan and produce."
 date: 2019-10-08
 audioURL: https://anchor.fm/fishandscripts/embed/episodes/Flamboyant-fans-and-getting-things-done-e6e3mp
 published: true

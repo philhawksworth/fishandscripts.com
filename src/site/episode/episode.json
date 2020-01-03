@@ -1,4 +1,0 @@
-{
-  "layout" : "episode",
-  "templateEngineOverride": "njk,md"
-}
