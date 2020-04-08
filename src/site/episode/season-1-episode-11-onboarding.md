@@ -3,7 +3,7 @@ episode: Season 1, Episode 11
 title: Learning a large codebase and live coding on stage
 subtitle: "We are back after a rather large hiatus with episode 11!"
 date: 2020-04-08
-audioURL: https://anchor.fm/fishandscripts/embed/episodes/Svelte--Rollup-and-being-proper-adults-ea9uua
+audioURL: https://anchor.fm/fishandscripts/embed/episodes/Learning-a-large-codebase-and-live-coding-on-stage-echcl5
 published: true
 ---
 
